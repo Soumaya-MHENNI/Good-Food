@@ -39,6 +39,7 @@ module.exports = {
         newsletter: "url('assets/img/newsletter/bg.png')",
         footer: "url('assets/img/footer/bg.jpg')",
       },
+      
     },
   },
   plugins: [],
