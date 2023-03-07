@@ -81,20 +81,20 @@ const Menu = () => {
         <div className='container mx-auto'>
           <div className='lg:-mt-24 min-h-[590px] z-30 mb-8 md:mb-4 xl:mb-16'>
             {/* grid */}
-            <div className='grid grid-cols-1 gap-4 lg:grid-cols-4 min-h-[590px]'>
+            <div className='grid grid-cols-1 gap-4 lg:grid-cols-4  gap-8  min-h-[590px]'>
               {menuItems.map((item, index) => {
                 // destructure item
                 const { image, name, price, description } = item;
                 return (
                   <div key={index}>
                     {/* image+text */}
-                    <div className='flex flex-row lg:flex-col h-full'>
+                    <div className=' h-[200px] flex flex-row lg:flex-col'>
                       {/* image */}
 
                       <div
-                        className={`w-[40%] md:w-auto `}
+                        className={`w-[40%] h-[100%]  md:w-auto md:h-[100%]   `}
                       >
-                        <img src={image} alt='' />
+                        <img src={image} alt='' className='h-[200px] w-[200px] lg:w-[400px]'/>
                       </div>
 
                       {/* text */}
