@@ -138,8 +138,8 @@ export const menuData = {
 export const teamData = {
   pretitle: 'our team',
   title: 'meet our chef',
-  sub1: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci repudiandae enim ratione corrupti voluptatum suscipit distinctio dolor.',
-  sub2: 'Sequi exercitationem quae deserunt reiciendis nesciunt perferendis atque quisquam, odit facere! Minima esse reiciendis, magnam fugiat totam maxime consequatur perspiciatis voluptas consequuntur.',
+  sub1: ' When visiting our European restaurant, just brace yourself to immersing into enjoying a truly delicious and perfectly cooked dishes.',
+  sub2: 'The world-renowned chef showcases exhilarating interpretations of European food in a breathtaking space architect Tadao Ando built as a respite from the non-stop chaos of New York City.',
   name: 'Eva Savits',
   occupation: 'executive chef',
   signatureImg: SignatureImg,
@@ -198,8 +198,8 @@ export const newsletterData = {
 export const footerData = {
   contact: {
     title: 'contact location',
-    address: '3784 patterson road, #8 new york, CA 69000',
-    phone: '(201)256-3689',
+    address: '3784 patterson road, #8 Brussels',
+    phone: '(+32)477-123456',
   },
   hours: {
     title: 'working hours',
