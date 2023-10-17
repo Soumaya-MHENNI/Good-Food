@@ -132,7 +132,7 @@ const Header = () => {
           >
             {/* NavBar */}
             <nav className='w-full h-full'>
-              <ul className='h-full flex flex-col justify-center items-center gap-y-6'>
+              <ul className='h-full flex flex-col justify-center items-center gap-y-3'>
                 {navData.map((item, index) => {
                   return (
                     <li key={index}>
